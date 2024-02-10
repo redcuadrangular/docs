@@ -1,0 +1,19 @@
+site:
+  title: Red Cuadrangular
+  start_page: ROOT::index.adoc
+  robots: disallow
+content:
+  sources: 
+  - url: .
+    branches: HEAD
+    start_path: ROOT
+ui: 
+  bundle:
+    url: https://redcuadrangular.github.io/theme-docs/ui-bundle.zip
+    snapshot: true
+asciidoc:
+  attributes:
+    page-component-sort-order: ROOT,development,crowdfunding,coworking,freelancers,learning,community
+antora:
+  extensions:
+  - '@antora/lunr-extension'
