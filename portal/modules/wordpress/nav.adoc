@@ -1,0 +1,5 @@
+* Usando WordPress
+** xref:index.adoc[]
+** xref:install.adoc[]
+** xref:configure.adoc[]
+** xref:deploy.adoc[]

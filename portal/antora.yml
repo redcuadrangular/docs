@@ -1,5 +1,5 @@
-name: ROOT
-title: Descripción General
+name: portal
+title: Portal Local
 version: ~
 #prerelease: -alfa.1
 asciidoc:
@@ -10,3 +10,5 @@ asciidoc:
     url-project: https://redcuadrangular.github.io/docs/
 nav:
 - modules/ROOT/nav.adoc
+- modules/jekyll/nav.adoc
+- modules/wordpress/nav.adoc

@@ -10,16 +10,13 @@ content:
   - url: .
     branches: HEAD
     start_path: loco
-  - url: .
-    branches: HEAD
-    start_path: portal
 ui: 
   bundle:
     url: https://redcuadrangular.github.io/theme-docs/ui-bundle.zip
     snapshot: true
 asciidoc:
   attributes:
-    page-component-sort-order: ROOT, loco, portal
+    page-component-sort-order: ROOT
 antora:
   extensions:
   - '@antora/lunr-extension'

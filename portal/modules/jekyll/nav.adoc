@@ -1,2 +1,2 @@
-* Visión General
+* Usando Jekyll
 ** xref:index.adoc[]
