@@ -1,7 +1,6 @@
 site:
   title: Red Cuadrangular
   start_page: ROOT::index.adoc
-  robots: disallow
 content:
   sources: 
   - url: .
